@@ -121,17 +121,24 @@ console.log(checkNumb('+375(29) 5454355')) */
 Функция должна возвращать true или false. Используйте регулярные выражения. */
 
 
+/* const checkEmail = (emailName) => {
+    let regExp = /[a-zA-Z]{2,}\d{0,}@[a-zA-Z]{2,11}.[a-z]{2,11}/gi;
+    if (regExp.test(emailName)) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(checkEmail('Name123@google.com')) */
 
 
 
 // Задание 10
-/* Напишите ф-цию, которая из полного адреса с параметрами и без,
-например: https://tech.onliner.by/2018/04/26/smart-do-200/?
-utm_source=main_tile&utm_medium=smartdo200#zag3 , получит адрес
-доменного имени (https://tech.onliner.by), остальную часть адреса без
-параметров (/2018/04/26/smart-do-200/), параметры
-(utm_source=main_tile&utm_medium=smartdo200) и хеш (#zag3). В адресе
-может и не быть каких-либо составляющих. Ф-ция должна возвращать
-массив.
-* Для быстрого составления регулярного выражения и проверки исп. онлайн-
-сервис https://regex101.com/. */
+/* Напишите ф-цию, которая из полного адреса с параметрами и без, например: https://tech.onliner.by/2018/04/26/smart-do-200/?utm_source=main_tile&utm_medium=smartdo200#zag3 , получит адрес
+доменного имени (https://tech.onliner.by), остальную часть адреса без параметров (/2018/04/26/smart-do-200/), параметры (utm_source=main_tile&utm_medium=smartdo200) и хеш (#zag3). В адресе
+может и не быть каких-либо составляющих. Ф-ция должна возвращать массив. 
+* Для быстрого составления регулярного выражения и проверки исп. онлайн- сервис https://regex101.com/. */
+
+
+
+
